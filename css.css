@@ -1,0 +1,37 @@
+
+.navbar {
+    background-color: rgba(0,0,0,.2) !important;
+    position: relative !important;
+    overflow: hidden;
+
+}
+
+.collapse, .navbar-collapse {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.nav-link.active{
+  color:white !important;
+}
+
+.nav-link{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    border-radius: 30px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+.video{
+    width: 100%;
+    z-index: -1;
+}
